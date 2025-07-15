@@ -1,0 +1,3844 @@
+{
+  "shards": {
+    "Grove":{
+        "productID": "SHARD_GROVE",
+        "id":"1",
+        "name": "Grove",
+        "family": ["Elemental"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"Forest",
+                "rarity":"Common",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Mist":{
+        "productID": "SHARD_MIST",
+        "id":"2",
+        "name": "Mist",
+        "family": ["Elemental"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"Water",
+                "rarity":"Common",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Flash":{
+        "productID": "SHARD_FLASH",
+        "id":"3",
+        "name": "Flash",
+        "family": ["Elemental"],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"Combat",
+                "rarity":"Uncommon",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Phanpyre":{
+        "productID": "SHARD_PHANPYRE",
+        "id":"4",
+        "name": "Phanpyre",
+        "family": ["Phantom"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cod":{
+        "productID": "SHARD_COD",
+        "id":"5",
+        "name": "Cod",
+        "family": ["Tropical Fish"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Phanflare":{
+        "productID": "SHARD_PHANFLARE",
+        "id":"7",
+        "name": "Phanflare",
+        "family": ["Phantom"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Night Squid":{
+        "productID": "SHARD_NIGHT_SQUID",
+        "id":"8",
+        "name": "Night Squid",
+        "family": ["Squid"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Lapis Zombie":{
+        "productID": "SHARD_LAPIS_ZOMBIE",
+        "id":"9",
+        "name": "Lapis Zombie",
+        "family": ["Lapis"],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hideonleaf":{
+        "productID": "SHARD_HIDEONLEAF",
+        "id":"10",
+        "name": "Hideonleaf",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Verdant":{
+        "productID": "SHARD_VERDANT",
+        "id":"11",
+        "name": "Verdant",
+        "family": ["Tropical Fish"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Chill":{
+        "productID": "SHARD_CHILL",
+        "id":"12",
+        "name": "Chill",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Sea Archer":{
+        "productID": "SHARD_SEA_ARCHER",
+        "id":"14",
+        "name": "Sea Archer",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Voracious Spider":{
+        "productID": "SHARD_VORACIOUS_SPIDER",
+        "id":"15",
+        "name": "Voracious Spider",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hideongift":{
+        "productID": "SHARD_HIDEONGIFT",
+        "id":"16",
+        "name": "Hideongift",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Common+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Birries":{
+        "productID": "SHARD_BIRRIES",
+        "id":"17",
+        "name": "Birries",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Tank Zombie":{
+        "productID": "SHARD_TANK_ZOMBIE",
+        "id":"18",
+        "name": "Tank Zombie",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Crow":{
+        "productID": "SHARD_CROW",
+        "id":"19",
+        "name": "Crow",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Tadgang":{
+        "productID": "SHARD_TADGANG",
+        "id":"20",
+        "name": "Tadgang",
+        "family": ["Amphibian", "Frog"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Zealot":{
+        "productID": "SHARD_ZEALOT",
+        "id":"21",
+        "name": "Zealot",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Coralot":{
+        "productID": "SHARD_CORALOT",
+        "id":"23",
+        "name": "Coralot",
+        "family": ["Axolotl"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Harpy":{
+        "productID": "SHARD_HARPY",
+        "id":"24",
+        "name": "Harpy",
+        "family": ["Bird"],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            },
+            {
+                "type":"Combat",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Mudworm":{
+        "productID": "SHARD_MUDWORM",
+        "id":"25",
+        "name": "Mudworm",
+        "family": [""],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Golden Ghoul":{
+        "productID": "SHARD_GOLDEN_GHOUL",
+        "id":"27",
+        "name": "Golden Ghoul",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Azure":{
+        "productID": "SHARD_AZURE",
+        "id":"29",
+        "name": "Azure",
+        "family": ["Tropical Fish"],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bezal":{
+        "productID": "SHARD_BEZAL",
+        "id":"30",
+        "name": "Bezal",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Yog":{
+        "productID": "SHARD_YOG",
+        "id":"33",
+        "name": "Yog",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Boreal Owl":{
+        "productID": "SHARD_BOREAL_OWL",
+        "id":"34",
+        "name": "Boreal Owl",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Common+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Newt":{
+        "productID": "SHARD_NEWT",
+        "id":"35",
+        "name": "Newt",
+        "family": ["Lizard", "Reptile"],
+        "type": "Water",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Axolotl",
+                "shards":""
+            },
+            {
+                "type":"Water",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Miner Zombie":{
+        "productID": "SHARD_MINER_ZOMBIE",
+        "id":"36",
+        "name": "Miner Zombie",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Common",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bramble":{
+        "productID": "SHARD_BRAMBLE",
+        "id":"1",
+        "name": "Bramble",
+        "family": ["Elemental"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"Forest",
+                "rarity":"Uncommon",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Tide":{
+        "productID": "SHARD_TIDE",
+        "id":"2",
+        "name": "Tide",
+        "family": ["Elemental"],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"Water",
+                "rarity":"Uncommon",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Quake":{
+        "productID": "SHARD_QUAKE",
+        "id":"3",
+        "name": "Quake",
+        "family": ["Elemental"],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"Combat",
+                "rarity":"Uncommon",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Sparrow":{
+        "productID": "SHARD_SPARROW",
+        "id":"4",
+        "name": "Sparrow",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Goldfin":{
+        "productID": "SHARD_GOLDFIN",
+        "id":"5",
+        "name": "Goldfin",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Golden Ghoul"
+            },
+            {
+                "type":"Water",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Troglobyte":{
+        "productID": "SHARD_TROGLOBYTE",
+        "id":"6",
+        "name": "Troglobyte",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Cave Dweller",
+                "shards":""
+            },
+            {
+                "type":"Combat",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hideoncave":{
+        "productID": "SHARD_HIDEONCAVE",
+        "id":"7",
+        "name": "Hideoncave",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Cave Dweller",
+                "shards":""
+            }
+        ]
+    },
+    "Salamander":{
+        "productID": "SHARD_SALAMANDER",
+        "id":"8",
+        "name": "Salamander",
+        "family": ["Lizard", "Reptile"],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Lizard",
+                "shards":""
+            },
+            {
+                "type":"Water",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cuboa":{
+        "productID": "SHARD_CUBOA",
+        "id":"9",
+        "name": "Cuboa",
+        "family": ["Reptile", "Serpant"],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Reptile",
+                "shards":""
+            }
+        ]
+    },
+    "Pest":{
+        "productID": "SHARD_PEST",
+        "id":"10",
+        "name": "Pest",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Mossybit":{
+        "productID": "SHARD_MOSSYBIT",
+        "id":"11",
+        "name": "Mossybit",
+        "family": ["Amphibian", "Frog"],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Tadgang"
+            },
+            {
+                "type":"Forest",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Rain Slime":{
+        "productID": "SHARD_RAIN_SLIME",
+        "id":"12",
+        "name": "Rain Slime",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Seer":{
+        "productID": "SHARD_SEER",
+        "id":"15",
+        "name": "Seer",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Heron":{
+        "productID": "SHARD_HERON",
+        "id":"16",
+        "name": "Heron",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Obsidian Defender":{
+        "productID": "SHARD_OBSIDIAN_DEFENDER",
+        "id":"18",
+        "name": "Obsidian Defender",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Salmon":{
+        "productID": "SHARD_SALMON",
+        "id":"20",
+        "name": "Salmon",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Viper":{
+        "productID": "SHARD_VIPER",
+        "id":"21",
+        "name": "Viper",
+        "family": ["Reptile", "Serpant"],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Cuboa"
+            },
+            {
+                "type":"Combat",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Praying Mantis":{
+        "productID": "SHARD_PRAYING_MANTIS",
+        "id":"22",
+        "name": "Praying Mantis",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Pest"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Pest"
+            }
+        ]
+    },
+    "Zombie Soldier":{
+        "productID": "SHARD_ZOMBIE_SOLDIER",
+        "id":"24",
+        "name": "Zombie Soldier",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bambuleaf":{
+        "productID": "SHARD_BAMBULEAF",
+        "id":"25",
+        "name": "Bambuleaf",
+        "family": ["Panda"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Sycophant":{
+        "productID": "SHARD_SYCOPHANT",
+        "id":"27",
+        "name": "Sycophant",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Seagull":{
+        "productID": "SHARD_SEAGULL",
+        "id":"28",
+        "name": "Seagull",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Ent":{
+        "productID": "SHARD_ENT",
+        "id":"29",
+        "name": "Ent",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Soul of the Alpha":{
+        "productID": "SHARD_SOUL_OF_THE_ALPHA",
+        "id":"30",
+        "name": "Soul of the Alpha",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Mochibear":{
+        "productID": "SHARD_MOCHIBEAR",
+        "id":"31",
+        "name": "Mochibear",
+        "family": ["Panda"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Magma Slug":{
+        "productID": "SHARD_MAGMA_SLUG",
+        "id":"32",
+        "name": "Magma Slug",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Flaming Spider":{
+        "productID": "SHARD_FLAMING_SPIDER",
+        "id":"33",
+        "name": "Flaming Spider",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Kiwi":{
+        "productID": "SHARD_KIWI",
+        "id":"34",
+        "name": "Kiwi",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bruiser":{
+        "productID": "SHARD_BRUISER",
+        "id":"36",
+        "name": "Bruiser",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Stridersurfer":{
+        "productID": "SHARD_STRIDER_SURFER",
+        "id":"38",
+        "name": "Stridersurfer",
+        "family": ["Drowned"],
+        "type": "Water",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Rana":{
+        "productID": "SHARD_RANA",
+        "id":"39",
+        "name": "Rana",
+        "family": ["Amphibian", "Frog"],
+        "type": "Combat",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Frog",
+                "shards":""
+            },
+            {
+                "type":"Combat",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Termite":{
+        "productID": "SHARD_TERMITE",
+        "id":"40",
+        "name": "Termite",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Uncommon",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bug",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Praying Mantis"
+            }
+        ]
+    },
+    "Sylvan":{
+        "productID": "SHARD_SYLVAN",
+        "id":"1",
+        "name": "Sylvan",
+        "family": ["Elemental"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"Forest",
+                "rarity":"Rare",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cascade":{
+        "productID": "SHARD_CASCADE",
+        "id":"2",
+        "name": "Cascade",
+        "family": ["Elemental"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"Water",
+                "rarity":"Rare",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bolt":{
+        "productID": "SHARD_BOLT",
+        "id":"3",
+        "name": "Bolt",
+        "family": ["Elemental"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"Combat",
+                "rarity":"Rare",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bambloom":{
+        "productID": "SHARD_BAMBLOOM",
+        "id":"4",
+        "name": "Bambloom",
+        "family": ["Panda"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Panda",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Toad":{
+        "productID": "SHARD_TOAD",
+        "id":"5",
+        "name": "Toad",
+        "family": ["Amphibian", "Frog"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Frog",
+                "shards":""
+            },
+            {
+                "type":"Forest",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Glacite Walker":{
+        "productID": "SHARD_GLACITE_WALKER",
+        "id":"6",
+        "name": "Glacite Walker",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Beaconmite":{
+        "productID": "SHARD_BEACONMITE",
+        "id":"7",
+        "name": "Beaconmite",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Lizard King":{
+        "productID": "SHARD_LIZARD_KING",
+        "id":"8",
+        "name": "Lizard King",
+        "family": ["Lizard", "Reptile"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Lizard",
+                "shards":""
+            },
+            {
+                "type":"Water",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Python":{
+        "productID": "SHARD_PYTHON",
+        "id":"9",
+        "name": "Python",
+        "family": ["Reptile", "Serpant"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Viper"
+            },
+            {
+                "type":"Combat",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Invisibug":{
+        "productID": "SHARD_INVISIBUG",
+        "id":"10",
+        "name": "Invisibug",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Piranha":{
+        "productID": "SHARD_PIRANHA",
+        "id":"11",
+        "name": "Piranha",
+        "family": ["Treasure Fish"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hideongeon":{
+        "productID": "SHARD_HIDEONGEON",
+        "id":"13",
+        "name": "Hideongeon",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Wither"
+            }
+        ]
+    },
+    "Lapis Skeleton":{
+        "productID": "SHARD_LAPIS_SKELETON",
+        "id":"15",
+        "name": "Lapis Skeleton",
+        "family": ["Lapis"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Lapis Zombie"
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cropeetle":{
+        "productID": "SHARD_CROPEETLE",
+        "id":"16",
+        "name": "Cropeetle",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":["Invisibug", "Termite"]
+            },
+            {
+                "type":"Forest",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Drowned":{
+        "productID": "SHARD_DROWNED",
+        "id":"18",
+        "name": "Drowned",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Star Sentry":{
+        "productID": "SHARD_STAR_SENTRY",
+        "id":"21",
+        "name": "Star Centry",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hideondra":{
+        "productID": "SHARD_HIDEONDRA",
+        "id":"22",
+        "name": "Hideondra",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Demon",
+                "shards":""
+            }
+        ]
+    },
+    "Abyssal Lanternfish":{
+        "productID": "SHARD_ABYSSAL_LANTERN",
+        "id":"23",
+        "name": "Abyssal Lanternfish",
+        "family": ["Treasure Fish"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Arachne":{
+        "productID": "SHARD_ARACHNE",
+        "id":"24",
+        "name": "Arachne",
+        "family": ["Spider"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bitbug":{
+        "productID": "SHARD_BITBUG",
+        "id":"25",
+        "name": "Bitbug",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Revenant":{
+        "productID": "SHARD_REVENANT",
+        "id":"27",
+        "name": "Revenant",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Silentdepth":{
+        "productID": "SHARD_SILENTDEPTH",
+        "id":"29",
+        "name": "Silentdepth",
+        "family": ["Treasure Fish"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Skeletor":{
+        "productID": "SHARD_SKELETOR",
+        "id":"30",
+        "name": "Skeletor",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Lapis Skeleton"
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Thyst":{
+        "productID": "SHARD_THYST",
+        "id":"31",
+        "name": "Thyst",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Quartzfang":{
+        "productID": "SHARD_QUARTZFANG",
+        "id":"33",
+        "name": "Quartzfang",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Troglobyte"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":["Cave Dweller", "Abyssal Lanternfish"]
+            }
+        ]
+    },
+    "Hideonring":{
+        "productID": "SHARD_HIDEONRING",
+        "id":"34",
+        "name": "Hideonring",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Snowfin":{
+        "productID": "SHARD_SNOWFIN",
+        "id":"35",
+        "name": "Snowfin",
+        "family": ["Treasure Fish"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Kada Knight":{
+        "productID": "SHARD_KADA_KNIGHT",
+        "id":"36",
+        "name": "Kada Knight",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Carrot King":{
+        "productID": "SHARD_CARROT_KING",
+        "id":"38",
+        "name": "Carrot King",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Wither Specter":{
+        "productID": "SHARD_WITHER_SPECTER",
+        "id":"39",
+        "name": "Wither Specter",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Matcho":{
+        "productID": "SHARD_MATCHO",
+        "id":"42",
+        "name": "Matcho",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Ladybug":{
+        "productID": "SHARD_LADYBUG",
+        "id":"43",
+        "name": "Ladybug",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Cropeetle"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bug",
+                "shards":""
+            }
+        ]
+    },
+    "Lumisquid":{
+        "productID": "SHARD_LUMISQUID",
+        "id":"44",
+        "name": "Lumisquid",
+        "family": ["Squid"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Crocodile":{
+        "productID": "SHARD_CROCODILE",
+        "id":"45",
+        "name": "Crocodile",
+        "family": ["Croco", "Reptile"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Bullfrog":{
+        "productID": "SHARD_BULLFROG",
+        "id":"46",
+        "name": "Bullfrog",
+        "family": ["Amphibian", "Frog"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Frog",
+                "shards":""
+            },
+            {
+                "type":"Forest",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Dreadwing":{
+        "productID": "SHARD_DREADWING",
+        "id":"49",
+        "name": "Dreadwing",
+        "family": ["Phantom"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":["Phanpyre","Phanflare"]
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Joydive":{
+        "productID": "SHARD_JOYDIVE",
+        "id":"50",
+        "name": "Joydive",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Stalagmight":{
+        "productID": "SHARD_STALAGMIGHT",
+        "id":"51",
+        "name": "Stalagmight",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Quartzfang"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Cave Dweller",
+                "shards":"Silentdepth"
+            }
+        ]
+    },
+    "Fungloom":{
+        "productID": "SHARD_FUNGLOOM",
+        "id":"52",
+        "name": "Fungloom",
+        "family": ["Cave Dweller"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Cave Dweller",
+                "shards":""
+            },
+            {
+                "type":"Forest",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Eel":{
+        "productID": "SHARD_EEL",
+        "id":"53",
+        "name": "Eel",
+        "family": ["Amphibian", "Eel"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "King Cobra":{
+        "productID": "SHARD_KING_COBRA",
+        "id":"54",
+        "name": "King Cobra",
+        "family": ["Reptile", "Serpant"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Python"
+            },
+            {
+                "type":"Combat",
+                "rarity":"Uncommon+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Lava Flame":{
+        "productID": "SHARD_LAVA_FLAME",
+        "id":"56",
+        "name": "Lava Flame",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Draconic":{
+        "productID": "SHARD_DRACONIC",
+        "id":"57",
+        "name": "Draconic",
+        "family": ["Dragon"],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Falcon":{
+        "productID": "SHARD_FALCON",
+        "id":"58",
+        "name": "Falcon",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Inferno Koi":{
+        "productID": "SHARD_INFERNO_KOI",
+        "id":"59",
+        "name": "Inferno Koi",
+        "family": ["Treasure Fish"],
+        "type": "Water",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Wither":{
+        "productID": "SHARD_WITHER",
+        "id":"60",
+        "name": "Wither",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Gecko":{
+        "productID": "SHARD_GECKO",
+        "id":"61",
+        "name": "Gecko",
+        "family": ["Reptile", "Scaled"],
+        "type": "Forest",
+        "rarity": "Rare",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Terra":{
+        "productID": "SHARD_TERRA",
+        "id":"1",
+        "name": "Terra",
+        "family": ["Elemental"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"Forest",
+                "rarity":"Epic",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cryo":{
+        "productID": "SHARD_CRYO",
+        "id":"2",
+        "name": "Cryo",
+        "family": ["Elemental"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"Water",
+                "rarity":"Epic",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Aero":{
+        "productID": "SHARD_AERO",
+        "id":"3",
+        "name": "Aero",
+        "family": ["Elemental"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"Combat",
+                "rarity":"Epic",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Pandarai":{
+        "productID": "SHARD_PANDARAI",
+        "id":"4",
+        "name": "Pandarai",
+        "family": ["Panda"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Panda",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Leviathan":{
+        "productID": "SHARD_LEVIATHAN",
+        "id":"5",
+        "name": "Leviathan",
+        "family": ["Lizard", "Reptile"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Lizard",
+                "shards":""
+            },
+            {
+                "type":"Water",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Alligator":{
+        "productID": "SHARD_ALLIGATOR",
+        "id":"6",
+        "name": "Alligator",
+        "family": ["Croco", "Reptile"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Crocodile"
+            },
+            {
+                "type":"Combat",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Fenlord":{
+        "productID": "SHARD_FENLORD",
+        "id":"7",
+        "name": "Fenlord",
+        "family": ["Amphibian", "Frog"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Bullfrog"
+            },
+            {
+                "type":"Forest",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Basilisk":{
+        "productID": "SHARD_BASILISK",
+        "id":"9",
+        "name": "Basilisk",
+        "family": ["Reptile", "Serpant"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"King Cobra"
+            },
+            {
+                "type":"Combat",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Iguana":{
+        "productID": "SHARD_IGUANA",
+        "id":"10",
+        "name": "Iguana",
+        "family": ["Reptile", "Scaled"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Gecko"
+            },
+            {
+                "type":"Forest",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Moray Eel":{
+        "productID": "SHARD_MORAY_EEL",
+        "id":"11",
+        "name": "Moray Eel",
+        "family": ["Amphibian", "Eel"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"Eel",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"Water",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Thorn":{
+        "productID": "SHARD_THORN",
+        "id":"12",
+        "name": "Thorn",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Lunar Moth":{
+        "productID": "SHARD_LUNAR_MOTH",
+        "id":"13",
+        "name": "Lunar Moth",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Ladybug"
+            },
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"Bug",
+                "shards":""
+            }
+        ]
+    },
+    "Fire Eel":{
+        "productID": "SHARD_FIRE_EEL",
+        "id":"14",
+        "name": "Fire Eel",
+        "family": ["Amphibian", "Eel"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Moray Eel"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Firefly"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Eel"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Moray Eel"
+            }
+        ]
+    },
+    "Bal":{
+        "productID": "SHARD_BAL",
+        "id":"15",
+        "name": "Bal",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hideonsack":{
+        "productID": "SHARD_HIDEONSACK",
+        "id":"16",
+        "name": "Hideonsack",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Water Hydra":{
+        "productID": "SHARD_WATER_HYDRA",
+        "id":"17",
+        "name": "Water Hydra",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Flare":{
+        "productID": "SHARD_FLARE",
+        "id":"18",
+        "name": "Flare",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Sea Emperor":{
+        "productID": "SHARD_SEA_EMPEROR",
+        "id":"20",
+        "name": "Sea Emperor",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Prince":{
+        "productID": "SHARD_PRINCE",
+        "id":"21",
+        "name": "Prince",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Komodo Dragon":{
+        "productID": "SHARD_KOMODO_DRAGON",
+        "id":"22",
+        "name": "Komodo Dragon",
+        "family": ["Reptile", "Scaled"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Iguana"
+            },
+            {
+                "type":"Forest",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Mimic":{
+        "productID": "SHARD_MIMIC",
+        "id":"24",
+        "name": "Mimic",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Shellwise":{
+        "productID": "SHARD_SHELLWISE",
+        "id":"26",
+        "name": "Shellwise",
+        "family": ["Reptile", "Turtle"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Barbarian Duke X":{
+        "productID": "SHARD_BARBARIAN_DUKE_X",
+        "id":"27",
+        "name": "Barbarian Duke X",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Toucan":{
+        "productID": "SHARD_TOUCAN",
+        "id":"28",
+        "name": "Toucan",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Hellwisp":{
+        "productID": "SHARD_HELLWISP",
+        "id":"29",
+        "name": "Hellwisp",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Caiman":{
+        "productID": "SHARD_CAIMAN",
+        "id":"30",
+        "name": "Caiman",
+        "family": ["Croco", "Reptile"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Alligator"
+            },
+            {
+                "type":"Combat",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Firefly":{
+        "productID": "SHARD_FIREFLY",
+        "id":"31",
+        "name": "Firefly",
+        "family": [""],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Lunar Moth"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":["Bezal", "Cinderbat", "Flare", "Lava Flame", "Fire Eel", "Bal", "Flaming Spider"]
+            }
+        ]
+    },
+    "Sea Serpant":{
+        "productID": "SHARD_SEA_SERPENT",
+        "id":"32",
+        "name": "Sea Serpant",
+        "family": ["Amphibian", "Eel", "Serpant"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Moray Eel"
+            },
+            {
+                "type":"Water",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Ghost":{
+        "productID": "SHARD_GHOST",
+        "id":"33",
+        "name": "Ghost",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "XYZ":{
+        "productID": "SHARD_XYZ",
+        "id":"34",
+        "name": "XYZ",
+        "family": [""],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Leatherback":{
+        "productID": "SHARD_LEATHERBACK",
+        "id":"35",
+        "name": "Leatherback",
+        "family": ["Reptile", "Turtle"],
+        "type": "Water",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Shellwise"
+            },
+            {
+                "type":"Water",
+                "rarity":"Rare+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cavernshade":{
+        "productID": "SHARD_CAVERNSHADE",
+        "id":"36",
+        "name": "Cavernshade",
+        "family": ["Cave Dweller"],
+        "type": "Combat",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"Rare+",
+                "family":"Cave Dweller",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"Cave Dweller",
+                "shards":""
+            }
+        ]
+    },
+    "Dragonfly":{
+        "productID": "SHARD_DRAGONFLY",
+        "id":"37",
+        "name": "Dragonfly",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Epic",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Firefly"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Dragon",
+                "shards":""
+            }
+        ]
+    },
+    "Tenebris":{
+        "productID": "SHARD_TENEBRIS",
+        "id":"1",
+        "name": "Tenebris",
+        "family": ["Elemental"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"Forest",
+                "rarity":"Legendary",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"Elemental",
+                "shards":""
+            }
+        ]
+    },
+    "Blizzard":{
+        "productID": "SHARD_BLIZZARD",
+        "id":"2",
+        "name": "Blizzard",
+        "family": ["Elemental"],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"Water",
+                "rarity":"Legendary",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"Elemental",
+                "shards":""
+            }
+        ]
+    },
+    "Tempest":{
+        "productID": "SHARD_TEMPEST",
+        "id":"3",
+        "name": "Tempest",
+        "family": ["Elemental"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"Combat",
+                "rarity":"Legendary",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"Elemental",
+                "shards":""
+            }
+        ]
+    },
+    "Chameleon":{
+        "productID": "SHARD_CHAMELEON",
+        "id":"4",
+        "name": "Chameleon",
+        "family": ["Reptile"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Tiamat":{
+        "productID": "SHARD_TIAMAT",
+        "id":"6",
+        "name": "Tiamat",
+        "family": ["Croco", "Reptile"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Caiman"
+            },
+            {
+                "type":"Combat",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Wyvern":{
+        "productID": "SHARD_WYVERN",
+        "id":"7",
+        "name": "Wyvern",
+        "family": ["Reptile", "Turtle"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Komodo Dragon"
+            },
+            {
+                "type":"Forest",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Tortoise":{
+        "productID": "SHARD_TORTOISE",
+        "id":"8",
+        "name": "Tortoise",
+        "family": ["Reptile", "Turtle"],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Leatherback"
+            },
+            {
+                "type":"Water",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Endstone Protector":{
+        "productID": "SHARD_ENDSTONE_PROTECTOR",
+        "id":"9",
+        "name": "Endstone Protector",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Naga":{
+        "productID": "SHARD_NAGA",
+        "id":"11",
+        "name": "Naga",
+        "family": ["Amphibian", "Eel"],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Sea Serpant"
+            },
+            {
+                "type":"Water",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Lapis Creeper":{
+        "productID": "SHARD_LAPIS_CREEPER",
+        "id":"12",
+        "name": "Lapis Creeper",
+        "family": [""],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Lapis Skeleton"
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":"Ghost"
+            }
+        ]
+    },
+    "Wartybug":{
+        "productID": "SHARD_WARTYBUG",
+        "id":"13",
+        "name": "Wartybug",
+        "family": ["Bug"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Dragonfly"
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Spike":{
+        "productID": "SHARD_SPIKE",
+        "id":"14",
+        "name": "Spike",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Kraken":{
+        "productID": "SHARD_KRAKEN",
+        "id":"15",
+        "name": "Kraken",
+        "family": ["Demon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Taurus":{
+        "productID": "SHARD_TAURUS",
+        "id":"17",
+        "name": "Taurus",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Daemon":{
+        "productID": "SHARD_DAEMON",
+        "id":"18",
+        "name": "Daemon",
+        "family": ["Demon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Kraken"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Kraken"
+            }
+        ]
+    },
+    "Moltenfish":{
+        "productID": "SHARD_MOLTENFISH",
+        "id":"20",
+        "name": "Moltenfish",
+        "family": ["Demon"],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Kraken"
+            },
+            {
+                "type":"Water",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Shinyfish":{
+        "productID": "SHARD_SHINYFISH",
+        "id":"23",
+        "name": "Shinyfish",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Ananke":{
+        "productID": "SHARD_ANANKE",
+        "id":"24",
+        "name": "Ananke",
+        "family": ["Bird", "Demon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Kraken"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            }
+        ]
+    },
+    "Hideonbox":{
+        "productID": "SHARD_HIDEONBOX",
+        "id":"25",
+        "name": "Hideonbox",
+        "family": ["Shulker"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"Epic+",
+                "family":"Shulker",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Lord Jawbus":{
+        "productID": "SHARD_LORD_JAWBUS",
+        "id":"26",
+        "name": "Lord Jawbus",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Burningsoul":{
+        "productID": "SHARD_BURNINGSOUL",
+        "id":"27",
+        "name": "Burningsoul",
+        "family": ["Demon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Cinderbat":{
+        "productID": "SHARD_CINDER_BAT",
+        "id":"28",
+        "name": "Cinderbat",
+        "family": [""],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Megalith":{
+        "productID": "SHARD_MEGALITH",
+        "id":"29",
+        "name": "Megalith",
+        "family": ["Reptile", "Turtle"],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Tortoise"
+            },
+            {
+                "type":"Water",
+                "rarity":"Epic+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Power Dragon":{
+        "productID": "SHARD_POWER_DRAGON",
+        "id":"30",
+        "name": "Power Dragon",
+        "family": ["Dragon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Condor":{
+        "productID": "SHARD_CONDOR",
+        "id":"31",
+        "name": "Condor",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"Bird",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Sun Fish":{
+        "productID": "SHARD_SUN_FISH",
+        "id":"32",
+        "name": "Sun Fish",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Shinyfish"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Shinyfish"
+            }
+        ]
+    },
+    "Apex Dragon":{
+        "productID": "SHARD_APEX_DRAGON",
+        "id":"33",
+        "name": "Apex Dragon",
+        "family": ["Dragon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Power Dragon"
+            },
+            {
+                "type":"",
+                "rarity":"Common+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Dodo":{
+        "productID": "SHARD_DODO",
+        "id":"34",
+        "name": "Dodo",
+        "family": ["Bird"],
+        "type": "Forest",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Condor"
+            },
+            {
+                "type":"",
+                "rarity":"Legendary+",
+                "family":"",
+                "shards":""
+            }
+        ]
+    },
+    "Jormung":{
+        "productID": "SHARD_JORMUNG",
+        "id":"36",
+        "name": "Jormung",
+        "family": ["Demon", "Dragon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Power Dragon"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Kraken"
+            }
+        ]
+    },
+    "Etherdrake":{
+        "productID": "SHARD_ETHERDRAKE",
+        "id":"39",
+        "name": "Etherdrake",
+        "family": ["Demon", "Dragon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Apex Dragon"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Kraken"
+            }
+        ]
+    },
+    "Galaxy Fish":{
+        "productID": "SHARD_GALAXY_FISH",
+        "id":"41",
+        "name": "Galaxy Fish",
+        "family": [""],
+        "type": "Water",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Sun Fish"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Sun Fish"
+            }
+        ]
+    },
+    "Molthorn":{
+        "productID": "SHARD_MOLTHORN",
+        "id":"42",
+        "name": "Molthorn",
+        "family": ["Demon", "Dragon"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Etherdrake"
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Jormung"
+            }
+        ]
+    },
+    "Starborn":{
+        "productID": "SHARD_STARBORN",
+        "id":"44",
+        "name": "Starborn",
+        "family": ["Elemental"],
+        "type": "Combat",
+        "rarity": "Legendary",
+        "fusion": [
+            {
+                "type":"",
+                "rarity":"Legendary",
+                "family":"Elemental",
+                "shards":""
+            },
+            {
+                "type":"",
+                "rarity":"",
+                "family":"",
+                "shards":"Galaxy Fish"
+            }
+        ]
+    }
+  }
+}
