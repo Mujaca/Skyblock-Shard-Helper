@@ -1,5 +1,7 @@
-# Vue 3 + TypeScript + Vite
+# Hypixel Shard Helper
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> TODO
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+# Credits
+
+I'm using [Dazzlepuffs Hypixel Hard Optimizer](https://github.com/Dazzlepuff/HypixelShardOptimizer) as a datasource for this site. Please check out his repository.
