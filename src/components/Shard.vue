@@ -46,6 +46,7 @@ const shard = ref(shardStore.getShardById(props.id));
 
 function onDragStart(event: DragEvent) {
 	event.dataTransfer?.setData('text/plain', props.id);
+    showDescription.value = false;
 }
 
 function onPictureError(event: Event) {
@@ -148,8 +149,8 @@ function onPictureError(event: Event) {
 }
 
 .shard {
-	width: 32px;
-	height: 32px;
+	width: 64px;
+	height: 64px;
 
 	padding: 4px;
 

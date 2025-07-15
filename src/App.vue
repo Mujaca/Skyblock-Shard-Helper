@@ -1,56 +1,42 @@
 <template>
 	<div class="main-container">
 		<div class="shard-list">
-			<Shard v-for="shard in shardStore.getShardArray" :key="shard.productID" :id="shard.productID"/>
+			<Shard
+				v-for="shard in shardStore.getShardArray"
+				:key="shard.productID"
+				:id="shard.productID" />
 		</div>
-		<br>
-		<div class="dropzone" @drop="onDrop" @dragover.prevent>
-			<div class="dropzone-inner"></div>
+		<div class="input-area">
+			<Dropzone/>
 		</div>
 	</div>
 </template>
 
 <script setup lang="ts">
+import Dropzone from './components/Dropzone.vue';
 import Shard from './components/Shard.vue';
 import { useShardStore } from './stores/shards.store';
 
 const shardStore = useShardStore();
-function onDrop(event: DragEvent) {
-	event.preventDefault();
-	const data = event.dataTransfer?.getData('text/plain');
-	console.log('Gedroppt:', data);
-}
-;
 
 </script>
 
-
 <style lang="scss" scoped>
 
+.main-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
 .shard-list {
-	width: 35%;
+	width: 45%;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
 	// overflow: auto;
-    height: 100%;
-    max-height: 90vh;
-}
-
-.dropzone {
-	width: 32px;
-	height: 32px;
-	padding: 16px;
-
-	transform: translate(-16px, -16px);
-
-	.dropzone-inner {
-		width: 32px;
-		height: 32px;
-
-		padding: 4px;
-		background-color: #393939;
-		border-radius: 8px;
-	}
+	height: 100%;
+	max-height: 90vh;
 }
 </style>
