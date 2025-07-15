@@ -16,7 +16,7 @@ export const useShardStore = defineStore('shard', {
 		},
 		getShardById: (state) => {
 			return (id: string) => {
-				return Object.values(state.shard).find(shard => shard.id === id);
+				return Object.values(state.shard).find(shard => shard.productID === id);
 			}
 		}
 	}

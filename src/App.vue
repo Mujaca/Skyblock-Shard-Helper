@@ -1,7 +1,7 @@
 <template>
 	<div class="main-container">
 		<div class="shard-list">
-			<Shard v-for="shard in shardStore.getShardArray" :key="shard.productID" :id="shard.productID" :name="shard.name" :image="shard.name" />
+			<Shard v-for="shard in shardStore.getShardArray" :key="shard.productID" :id="shard.productID"/>
 		</div>
 		<br>
 		<div class="dropzone" @drop="onDrop" @dragover.prevent>
@@ -32,7 +32,9 @@ function onDrop(event: DragEvent) {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
-	overflow-y: auto;
+	// overflow: auto;
+    height: 100%;
+    max-height: 90vh;
 }
 
 .dropzone {

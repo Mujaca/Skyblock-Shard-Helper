@@ -1,16 +1,48 @@
 <template>
-	<div class="shard" draggable="true" @dragstart="onDragStart" :title="name">
-		<img draggable="false" :src="`/images/shards/${image}.png`" :alt="name" @error="onPictureError" />
+	<div class="outer-shard">
+		<div
+			class="shard"
+			draggable="true"
+			@dragstart="onDragStart"
+			@mouseenter="showDescription = true"
+			@mouseleave="showDescription = false">
+			<img
+				draggable="false"
+				:src="`/images/shards/${shard?.name}.png`"
+				:alt="shard?.name"
+				@error="onPictureError" />
+		</div>
+		<div
+			class="shard-description"
+			:class="shard?.rarity.toLowerCase()"
+			v-if="showDescription">
+			<h3 class="shard-name">{{ shard?.name }}</h3>
+			<div class="shard-family-group">
+				<h4
+					class="shard-family"
+					v-for="family in shard?.family">
+					{{ family }}
+				</h4>
+			</div>
+			<p class="effect-title">Cheapstake</p>
+			<p class="effect-description">Gain +1% more Coins from fishing treasures.</p>
+		</div>
 	</div>
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
+
+import { useShardStore } from '../stores/shards.store';
+
+const shardStore = useShardStore();
 
 const props = defineProps<{
 	id: string;
-	name: string;
-	image: string;
 }>();
+
+const showDescription = ref(false);
+const shard = ref(shardStore.getShardById(props.id));
 
 function onDragStart(event: DragEvent) {
 	event.dataTransfer?.setData('text/plain', props.id);
@@ -20,12 +52,102 @@ function onPictureError(event: Event) {
 	const target = event.target as HTMLImageElement;
 	target.src = '/images/missing.png';
 }
-
 </script>
 
 <style lang="scss" scoped>
-.shard {
+.outer-shard {
+	position: relative;
 
+	.shard-description {
+		position: absolute;
+		left: 100%;
+		top: 0;
+		z-index: 1;
+		margin-left: 4px;
+		min-width: 300px;
+
+		background-color: #4a4a4a;
+		padding: 8px;
+		border-radius: 4px;
+
+		.shard-family-group {
+			display: flex;
+			flex-direction: row;
+			gap: 0.2rem;
+
+			.shard-family {
+				margin: 0;
+				font-size: 0.8rem;
+				color: #a1a1a1;
+
+				&:not(:last-child)::after {
+					content: '•';
+					margin-left: 0.2rem;
+				}
+			}
+		}
+
+		.shard-name {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.2rem;
+			color: #d1d5d8;
+		}
+
+		.effect-title {
+			margin-top: 0.2rem;
+			margin-bottom: 0;
+		}
+
+		.effect-description {
+			margin-top: 0;
+			margin-bottom: 0;
+			color: #d1d5d8;
+		}
+
+		&.common {
+			border: 1px solid #d1d5d8;
+
+			.shard-name {
+				color: #d1d5d8;
+			}
+		}
+
+		&.uncommon {
+			border: 1px solid #41a85f;
+
+			.shard-name {
+				color: #41a85f;
+			}
+		}
+
+		&.rare {
+			border: 1px solid #2c82c9;
+
+			.shard-name {
+				color: #2c82c9;
+			}
+		}
+
+		&.epic {
+			border: 1px solid #9365b8;
+
+			.shard-name {
+				color: #9365b8;
+			}
+		}
+
+		&.legendary {
+			border: 1px solid #fac51c;
+
+			.shard-name {
+				color: #fac51c;
+			}
+		}
+	}
+}
+
+.shard {
 	width: 32px;
 	height: 32px;
 
