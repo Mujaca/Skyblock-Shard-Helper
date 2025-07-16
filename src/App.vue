@@ -6,7 +6,7 @@
 				:key="shard.productID"
 				:id="shard.productID" />
 		</div>
-		<div class="">
+		<div class="fusion-area">
 			<div class="input-area">
 				<Dropzone/>
 			</div>
@@ -49,5 +49,12 @@ const shardStore = useShardStore();
 	position: relative;
 	height: 100%;
 	max-height: 90vh;
+}
+
+.fusion-area {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	height: 100%;
 }
 </style>
