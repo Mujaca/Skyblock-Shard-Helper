@@ -6,14 +6,16 @@
 				:key="shard.productID"
 				:id="shard.productID" />
 		</div>
-		<div class="input-area">
-			<Dropzone/>
-		</div>
-		<div class="output-area">
-			<OutputShard
+		<div class="">
+			<div class="input-area">
+				<Dropzone/>
+			</div>
+			<div class="output-area">
+				<OutputShard
 				v-if="shardStore.fusionResults.length > 0"
 				v-for="result in shardStore.fusionResults"
 				:possibleResults="result" />
+			</div>
 		</div>
 	</div>
 </template>
@@ -42,8 +44,9 @@ const shardStore = useShardStore();
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
-	//overflow-y: auto;
-	//overflow-x: visible;
+	overflow-y: auto;
+	overflow-x: visible;
+	position: relative;
 	height: 100%;
 	max-height: 90vh;
 }

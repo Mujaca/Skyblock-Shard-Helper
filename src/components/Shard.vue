@@ -4,8 +4,8 @@
 			class="shard"
 			draggable="true"
 			@dragstart="onDragStart"
-			@mouseenter="showDescription = true"
-			@mouseleave="showDescription = false">
+			@mouseenter="handleMouseEnter"
+			@mouseleave="handleMouseLeave">
 			<img
 				draggable="false"
 				:src="`/images/shards/${shard?.name}.png`"
@@ -15,7 +15,8 @@
 		<div
 			class="shard-description"
 			:class="shard?.rarity.toLowerCase()"
-			v-if="showDescription">
+			v-if="showDescription"
+			:style="descriptionStyle">
 			<h3 class="shard-name">{{ shard?.name }}</h3>
 			<div class="shard-family-group">
 				<h4
@@ -42,11 +43,30 @@ const props = defineProps<{
 }>();
 
 const showDescription = ref(false);
+const descriptionStyle = ref<Record<string,string>>({});
 const shard = ref(shardStore.getShardById(props.id));
 
 function onDragStart(event: DragEvent) {
 	event.dataTransfer?.setData('text/plain', props.id);
-    showDescription.value = false;
+	showDescription.value = false;
+}
+
+// Compute and position description tooltip fixed relative to viewport
+function handleMouseEnter(event: MouseEvent) {
+	   const el = event.currentTarget as HTMLElement;
+	   const rect = el.getBoundingClientRect();
+	   descriptionStyle.value = {
+	       position: 'fixed',
+	       top: `${rect.top}px`,
+	       left: `${rect.right + 4}px`,
+	       zIndex: '200',
+	       minWidth: '300px'
+	   };
+	   showDescription.value = true;
+}
+
+function handleMouseLeave() {
+   showDescription.value = false;
 }
 
 function onPictureError(event: Event) {
