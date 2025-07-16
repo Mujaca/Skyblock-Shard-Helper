@@ -46,6 +46,7 @@ const shard = ref(shardStore.getShardById(props.id));
 
 function onDragStart(event: DragEvent) {
 	event.dataTransfer?.setData('text/plain', props.id);
+    showDescription.value = false;
 }
 
 function onPictureError(event: Event) {
@@ -62,7 +63,7 @@ function onPictureError(event: Event) {
 		position: absolute;
 		left: 100%;
 		top: 0;
-		z-index: 1;
+		z-index: 200;
 		margin-left: 4px;
 		min-width: 300px;
 
@@ -148,8 +149,8 @@ function onPictureError(event: Event) {
 }
 
 .shard {
-	width: 32px;
-	height: 32px;
+	width: 64px;
+	height: 64px;
 
 	padding: 4px;
 
@@ -157,6 +158,8 @@ function onPictureError(event: Event) {
 	border-radius: 8px;
 
 	transition: background-color 0.2s ease-in-out;
+
+	 box-shadow: 0 4px 12px 0 #000a, 0 1.5px 0 0 #222, 0 0.5px 0 0 #fff2 inset;
 
 	&:hover {
 		//cursor: pointer;
