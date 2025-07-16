@@ -1,15 +1,26 @@
 import { defineStore } from 'pinia'
 import shards from '../assets/data/shards.json'
 import { rarityInOrder } from '../utils/rarity';
+import { getShardOfFusion } from '../utils/fusions';
 
 export const useShardStore = defineStore('shard', {
 	state: () => {
 		return {
-			shard: shards.shards as Record<string, shard>
+			shard: shards.shards as Record<string, shard>,
+            fusionTarget: undefined as shard | undefined,
+            fusionResults: [] as shard[][],
 		}
 	},
 	actions: {
+        setFusionTarget(shard: shard | undefined) {
+            this.fusionTarget = shard;
 
+            if(shard) {
+                return this.fusionResults = getShardOfFusion(shard.productID);
+            }
+
+            return this.fusionResults = [];
+        }
 	},
 	getters: {
 		getShardArray(): shard[] {
