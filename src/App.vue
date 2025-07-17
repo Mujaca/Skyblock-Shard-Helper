@@ -131,6 +131,7 @@ const shardStore = useShardStore();
 	}
 
 	img {
+		transform: rotate(180deg);
 		filter: invert(1);
 		max-width: 100%;
 		max-height: 100%;

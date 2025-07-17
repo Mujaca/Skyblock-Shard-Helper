@@ -50,7 +50,7 @@ function changeSelectedShard(shard: shard) {
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
-		max-height: 80vh;
+		max-height: 30vh;
 		overflow-y: auto;
 		overflow-x: visible;
 
