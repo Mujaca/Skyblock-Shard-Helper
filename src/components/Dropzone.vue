@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { nextTick, ref, Ref } from 'vue';
+import { nextTick, ref, type Ref } from 'vue';
 import Shard from './Shard.vue';
 import { useShardStore } from '../stores/shards.store';
 
