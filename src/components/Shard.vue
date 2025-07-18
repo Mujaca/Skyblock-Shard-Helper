@@ -25,8 +25,8 @@
 					{{ family }}
 				</h4>
 			</div>
-			<p class="effect-title">Cheapstake</p>
-			<p class="effect-description">Gain +1% more Coins from fishing treasures.</p>
+			<p class="effect-title"> {{ shard?.attribute.name }} </p>
+			<p class="effect-description">{{ shard?.attribute.description }}</p>
 		</div>
 	</div>
 </template>

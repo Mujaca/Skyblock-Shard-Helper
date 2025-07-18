@@ -6,7 +6,13 @@ type shard = {
     type: string;
     rarity: string;
     fusion: fusion[];
+    attribute: shardAttribute;
 };
+
+type shardAttribute = {
+    name: string;
+    description: string;
+}
 
 type fusion = {
 	type: string;

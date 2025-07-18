@@ -20,7 +20,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Nature Elemntal",
+            "description": "Grants +2 Health"
+        }
     },
     "Mist":{
         "productID": "SHARD_MIST",
@@ -42,7 +46,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fog Elemental",
+            "description": "Grants +1 Intelligence"
+        }
     },
     "Flash":{
         "productID": "SHARD_FLASH",
@@ -64,7 +72,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Light Elemental",
+            "description": "Grants +1 Strength"
+        }
     },
     "Phanpyre":{
         "productID": "SHARD_PHANPYRE",
@@ -86,7 +98,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Nocturnal Animal",
+            "description": "Grants +1 Sweep during the night."
+        }
     },
     "Cod":{
         "productID": "SHARD_COD",
@@ -108,7 +124,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Ceahpstake",
+            "description": "Gain +1% more Coins from fishing treasures."
+        }
     },
     "Phanflare":{
         "productID": "SHARD_PHANFLARE",
@@ -130,7 +150,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Moonglade Mastery",
+            "description": "Grants +10 Fig Fortune and +10 Mangrove Fortune"
+        }
     },
     "Night Squid":{
         "productID": "SHARD_NIGHT_SQUID",
@@ -152,7 +176,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fisherman",
+            "description": "Has a +1% chance not to consume any bait."
+        }
     },
     "Lapis Zombie":{
         "productID": "SHARD_LAPIS_ZOMBIE",
@@ -174,7 +202,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Experience",
+            "description": "Grants +10% more experience orbs from killing mobs."
+        }
     },
     "Hideonleaf":{
         "productID": "SHARD_HIDEONLEAF",
@@ -196,7 +228,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Mossy Box",
+            "description": "Grants +5 Block Fortune"
+        }
     },
     "Verdant":{
         "productID": "SHARD_VERDANT",
@@ -218,7 +254,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Forest Fishing",
+            "description": "Grants +3 Fishing Speed while on Foraging Islands."
+        }
     },
     "Chill":{
         "productID": "SHARD_CHILL",
@@ -240,7 +280,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Skeletal Ruler I",
+            "description": "Increase damage to Skeletal creatures by +3%."
+        }
     },
     "Sea Archer":{
         "productID": "SHARD_SEA_ARCHER",
@@ -262,7 +306,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Monster Bait",
+            "description": "Grants +0.5 Sea Creature Chance."
+        }
     },
     "Voracious Spider":{
         "productID": "SHARD_VORACIOUS_SPIDER",
@@ -284,7 +332,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Arthropod Resistance",
+            "description": "Grants +4 Defense against Spiders."
+        }
     },
     "Hideongift":{
         "productID": "SHARD_HIDEONGIFT",
@@ -306,7 +358,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Happy Box",
+            "description": "Grants a +2% Chance obtain an extra Winter Gift when finding one."
+        }
     },
     "Birries":{
         "productID": "SHARD_BIRRIES",
@@ -328,7 +384,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Yummy",
+            "description": "Grants a +10% chance to drop double Berries and Sea Lumies."
+        }
     },
     "Tank Zombie":{
         "productID": "SHARD_TANK_ZOMBIE",
@@ -350,7 +410,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Undead Resistance",
+            "description": "Grants +4 Defense against Undead Monsters."
+        }
     },
     "Crow":{
         "productID": "SHARD_CROW",
@@ -372,7 +436,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fig Sharpening",
+            "description": "Grants +5 Sweep towards Fig Trees."
+        }
     },
     "Tadgang":{
         "productID": "SHARD_TADGANG",
@@ -394,7 +462,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Unity is Strength",
+            "description": "Grants +0.02 Sweep for each unique Common Attribute you own."
+        }
     },
     "Zealot":{
         "productID": "SHARD_ZEALOT",
@@ -416,7 +488,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Ender Resistance",
+            "description": "Grants +4 Defense against mobs in The End."
+        }
     },
     "Coralot":{
         "productID": "SHARD_CORALOT",
@@ -438,7 +514,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Bucket Lover",
+            "description": "You have a +5% chance to gain extra Chums."
+        }
     },
     "Harpy":{
         "productID": "SHARD_HARPY",
@@ -460,7 +540,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Tree Lurker",
+            "description": "Increases the odds of finding monsters from Tree Gifts by +5%."
+        }
     },
     "Mudworm":{
         "productID": "SHARD_MUDWORM",
@@ -482,7 +566,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Visitor Bait",
+            "description": "Garden Visitors arrive +1% faster."
+        }
     },
     "Golden Ghoul":{
         "productID": "SHARD_GOLDEN_GHOUL",
@@ -504,7 +592,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Midas Touch",
+            "description": "Grants +1 Coin per kill."
+        }
     },
     "Azure":{
         "productID": "SHARD_AZURE",
@@ -526,7 +618,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Forest Strength",
+            "description": "Grants +5 Strength while on Foraging Islands."
+        }
     },
     "Bezal":{
         "productID": "SHARD_BEZAL",
@@ -548,7 +644,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Blazing Resistance",
+            "description": "Grants +4 Defense against mobs while in the Crimson Isle."
+        }
     },
     "Yog":{
         "productID": "SHARD_YOG",
@@ -570,7 +670,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Yog Membrane",
+            "description": "Grants +1 Heat Resistance."
+        }
     },
     "Boreal Owl":{
         "productID": "SHARD_BOREAL_OWL",
@@ -592,7 +696,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Owl Friend",
+            "description": "Your pets gain +2% more Pet EXP from Fann."
+        }
     },
     "Newt":{
         "productID": "SHARD_NEWT",
@@ -614,7 +722,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Decent Karma",
+            "description": "Grants +2 Hunter Fortune towards COMMON Attributes."
+        }
     },
     "Miner Zombie":{
         "productID": "SHARD_MINER_ZOMBIE",
@@ -636,7 +748,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Rotten Pickaxe",
+            "description": "Grants +3 Mining Speed."
+        }
     },
     "Bramble":{
         "productID": "SHARD_BRAMBLE",
@@ -658,7 +774,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Wood Elemental",
+            "description": "Grants +2 Health"
+        }
     },
     "Tide":{
         "productID": "SHARD_TIDE",
@@ -680,7 +800,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Water Elemental",
+            "description": "Grants +1 Intelligence."
+        }
     },
     "Quake":{
         "productID": "SHARD_QUAKE",
@@ -702,7 +826,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Stone Elemental",
+            "description": "Grants +1 Strength."
+        }
     },
     "Sparrow":{
         "productID": "SHARD_SPARROW",
@@ -724,7 +852,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fig Collector",
+            "description": "Grants ü1 Fig Fortune for every digit in your Fig Log collection. (Max 10M collection)"
+        }
     },
     "Goldfin":{
         "productID": "SHARD_GOLDFIN",
@@ -746,7 +878,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Gold Bait",
+            "description": "The cooldown of Golden Fish is reduced by +30s."
+        }
     },
     "Troglobyte":{
         "productID": "SHARD_TROGLOBYTE",
@@ -768,7 +904,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Mountain Climber",
+            "description": "Commissions grant +1% more HOTM Exp."
+        }
     },
     "Hideoncave":{
         "productID": "SHARD_HIDEONCAVE",
@@ -790,7 +930,11 @@
                 "family":"Cave Dweller",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Bigger Box",
+            "description": "Grants a +5% chance to find an extra item in Treasure Chests and the Crystal Nucleus."
+        }
     },
     "Salamander":{
         "productID": "SHARD_SALAMANDER",
@@ -812,7 +956,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Good Karma",
+            "description": "Grants +2 Hunter Fortune towards UNCOMMON Attributes."
+        }
     },
     "Cuboa":{
         "productID": "SHARD_CUBOA",
@@ -834,7 +982,11 @@
                 "family":"Reptile",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Boxes",
+            "description": "Your \"Box\" Attributes are +2% stronger."
+        }
     },
     "Pest":{
         "productID": "SHARD_PEST",
@@ -856,7 +1008,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Pest Luck",
+            "description": "Gain a +2% chance to obtain rare loot from Pests"
+        }
     },
     "Mossybit":{
         "productID": "SHARD_MOSSYBIT",
@@ -878,7 +1034,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Forest Trap",
+            "description": "Forest Shards get caught by Traps +1% faster."
+        }
     },
     "Rain Slime":{
         "productID": "SHARD_RAIN_SLIME",
@@ -900,7 +1060,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Mana Steal",
+            "description": "Regain +0.5 of your maximum Mana every time you hit a monster."
+        }
     },
     "Seer":{
         "productID": "SHARD_SEER",
@@ -922,7 +1086,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Dragon Shortbow Improvment",
+            "description": "Your Dragon Shortbow gains +2% more Damage while in The End."
+        }
     },
     "Heron":{
         "productID": "SHARD_HERON",
@@ -944,7 +1112,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Mangrove Sharpening",
+            "description": "Grants +10 Sweep towards Mangrove Trees."
+        }
     },
     "Obsidian Defender":{
         "productID": "SHARD_OBSIDIAN_DEFENDER",
@@ -966,7 +1138,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Speed",
+            "description": "Grants +1 Speed."
+        }
     },
     "Salmon":{
         "productID": "SHARD_SALMON",
@@ -988,7 +1164,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Lost and Found",
+            "description": "Grants a +0.1% chance to find a Wet Book when fishing a Treasure."
+        }
     },
     "Viper":{
         "productID": "SHARD_VIPER",
@@ -1010,7 +1190,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Hunter's Fang",
+            "description": "Your Hunting Axes gain +1% more stats from the weapon they hold."
+        }
     },
     "Praying Mantis":{
         "productID": "SHARD_PRAYING_MANTIS",
@@ -1032,7 +1216,11 @@
                 "family":"",
                 "shards":"Pest"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Insect Power",
+            "description": "Your Vacuum dealts +5% extra Damage."
+        }
     },
     "Zombie Soldier":{
         "productID": "SHARD_ZOMBIE_SOLDIER",
@@ -1054,7 +1242,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Undead Ruler",
+            "description": "Grants +3% more Damage against Undead Monsters."
+        }
     },
     "Bambuleaf":{
         "productID": "SHARD_BAMBULEAF",
@@ -1076,7 +1268,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Strong Arms",
+            "description": "Your Axe gains +3 Sweep on throws."
+        }
     },
     "Sycophant":{
         "productID": "SHARD_SYCOPHANT",
@@ -1098,7 +1294,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Life Recovery",
+            "description": "Heals for +0.1% of your max health each time you kill a mob."
+        }
     },
     "Seagull":{
         "productID": "SHARD_SEAGULL",
@@ -1120,7 +1320,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Mangrove Collector",
+            "description": "Grants ü1 Mangrove Fortune for every digit in your Mangrove Log collection. (Max 10M collection)"
+        }
     },
     "Ent":{
         "productID": "SHARD_ENT",
@@ -1142,7 +1346,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Spirit Axe",
+            "description": "Your Axes deal +2% extra Damage to creatures on Galatea."
+        }
     },
     "Soul of the Alpha":{
         "productID": "SHARD_SOUL_OF_THE_ALPHA",
@@ -1164,7 +1372,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Combo",
+            "description": "Deal +0.1% more Damage per Grandma Wolf pet combo. (Max 50 combo)"
+        }
     },
     "Mochibear":{
         "productID": "SHARD_MOCHIBEAR",
@@ -1186,7 +1398,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Strong Legs",
+            "description": "Your Axe gains +3 Sweep on melee."
+        }
     },
     "Magma Slug":{
         "productID": "SHARD_MAGMA_SLUG",
@@ -1208,7 +1424,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Infection",
+            "description": "Increases the chance of catching corrupted Sea Creatues by +0.2%."
+        }
     },
     "Flaming Spider":{
         "productID": "SHARD_FLAMING_SPIDER",
@@ -1230,7 +1450,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Arthropod Ruler",
+            "description": "Grants +3 more Damage against Spiders."
+        }
     },
     "Kiwi":{
         "productID": "SHARD_KIWI",
@@ -1252,7 +1476,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Kat's Favorite I",
+            "description": "Kat takes +1% less time to upgrade a Pet."
+        }
     },
     "Bruiser":{
         "productID": "SHARD_BRUISER",
@@ -1274,7 +1502,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Ender Ruler",
+            "description": "Grants +3% more Damage against Ender Creatures."
+        }
     },
     "Stridersurfer":{
         "productID": "SHARD_STRIDER_SURFER",
@@ -1296,7 +1528,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Magmatic Ruler",
+            "description": "Grants +3% more Damage against Lava Sea Creatures."
+        }
     },
     "Rana":{
         "productID": "SHARD_RANA",
@@ -1318,7 +1554,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Battle Frog",
+            "description": "Your Frog Pet gains +3 Strength."
+        }
     },
     "Termite":{
         "productID": "SHARD_TERMITE",
@@ -1340,7 +1580,11 @@
                 "family":"",
                 "shards":"Praying Mantis"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Infiltration",
+            "description": "Grants +3 Farming Fortune if your Garden Plot currently has a Pest in it."
+        }
     },
     "Sylvan":{
         "productID": "SHARD_SYLVAN",
@@ -1362,7 +1606,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Forest Elemental",
+            "description": "Grants +2 Health."
+        }
     },
     "Cascade":{
         "productID": "SHARD_CASCADE",
@@ -1384,7 +1632,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Torrent Elemental",
+            "description": "Grants +1 Intelligence."
+        }
     },
     "Bolt":{
         "productID": "SHARD_BOLT",
@@ -1406,7 +1658,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Lightning Elemental",
+            "description": "Grants +1 Strength."
+        }
     },
     "Bambloom":{
         "productID": "SHARD_BAMBLOOM",
@@ -1428,7 +1684,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Animal Expertise",
+            "description": "Grants +10 Foraging Fortune."
+        }
     },
     "Toad":{
         "productID": "SHARD_TOAD",
@@ -1450,7 +1710,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Frog Legs",
+            "description": "Frogs have a +10% chance to jump 1 less time."
+        }
     },
     "Glacite Walker":{
         "productID": "SHARD_GLACITE_WALKER",
@@ -1472,7 +1736,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Essence of Ice",
+            "description": "Gains +1% more Ice Essence."
+        }
     },
     "Beaconmite":{
         "productID": "SHARD_BEACONMITE",
@@ -1494,7 +1762,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Beacon Zealot",
+            "description": "The effects of beacons are 10% on you. Gain a 0.1% chance to find Signal Enhancers in Tree Gifts."
+        }
     },
     "Lizard King":{
         "productID": "SHARD_LIZARD_KING",
@@ -1516,7 +1788,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Great Karma",
+            "description": "Grants +1 Hunter Fortune towards RARE Attributes."
+        }
     },
     "Python":{
         "productID": "SHARD_PYTHON",
@@ -1538,7 +1814,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Hunter's Pressure",
+            "description": "Your Black Holes captures creatures +2% faster."
+        }
     },
     "Invisibug":{
         "productID": "SHARD_INVISIBUG",
@@ -1560,7 +1840,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fancy Visit",
+            "description": "RARE and above Garden Visitors have a +1% higher chance to arrive."
+        }
     },
     "Piranha":{
         "productID": "SHARD_PIRANHA",
@@ -1582,7 +1866,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Moonglade Serendipity",
+            "description": "Increases the odds of finding rare items in Tree Gifts at Moonglade Marsh by +2%."
+        }
     },
     "Hideongeon":{
         "productID": "SHARD_HIDEONGEON",
@@ -1604,7 +1892,11 @@
                 "family":"",
                 "shards":"Wither"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Catacombs Box",
+            "description": "Increases the quality of boss rewards in The Catacombs by +1."
+        }
     },
     "Lapis Skeleton":{
         "productID": "SHARD_LAPIS_SKELETON",
@@ -1626,7 +1918,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Bone Font",
+            "description": "Grants a +2% extra chance of finding Level 6+ books or higher in Superpairs."
+        }
     },
     "Cropeetle":{
         "productID": "SHARD_CROPEETLE",
@@ -1648,7 +1944,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Crop Bug",
+            "description": "Increased the odds of finding a Cropie, Squash or Fermento by +2%."
+        }
     },
     "Drowned":{
         "productID": "SHARD_DROWNED",
@@ -1670,7 +1970,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Humanoid Ruler",
+            "description": "Grants +3% more Damage against Humanoid Creatures."
+        }
     },
     "Star Sentry":{
         "productID": "SHARD_STAR_SENTRY",
@@ -1692,7 +1996,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Atomized Mithril",
+            "description": "Gain +1% extra Mithril Powder."
+        }
     },
     "Hideondra":{
         "productID": "SHARD_HIDEONDRA",
@@ -1714,7 +2022,11 @@
                 "family":"Demon",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Kuudra's Box",
+            "description": "Gives +5% chance to have an extra Kuudra Teeth in the Paid Reward Chest."
+        }
     },
     "Abyssal Lanternfish":{
         "productID": "SHARD_ABYSSAL_LANTERN",
@@ -1736,7 +2048,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Dwarven Serendipity",
+            "description": "Increases the chance to find Golden and Diamond Goblins by +10%."
+        }
     },
     "Arachne":{
         "productID": "SHARD_ARACHNE",
@@ -1758,7 +2074,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Essence of Arthropods",
+            "description": "Gain +1% of Spider Essence."
+        }
     },
     "Bitbug":{
         "productID": "SHARD_BITBUG",
@@ -1780,7 +2100,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Cookie Eater",
+            "description": "Gain +5% of your Booster Cookie Bits up front."
+        }
     },
     "Revenant":{
         "productID": "SHARD_REVENANT",
@@ -1802,7 +2126,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Essence of Unliving",
+            "description": "Gain +1% more Undead Essence."
+        }
     },
     "Silentdepth":{
         "productID": "SHARD_SILENTDEPTH",
@@ -1824,7 +2152,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Crystal Serendipity",
+            "description": "Grants a +2% more to double any loot from Crstal Hollows Treasure Chests."
+        }
     },
     "Skeletor":{
         "productID": "SHARD_SKELETOR",
@@ -1846,7 +2178,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Deadeye",
+            "description": "Increases damage from ranged weapons by +2.5%."
+        }
     },
     "Thyst":{
         "productID": "SHARD_THYST",
@@ -1868,7 +2204,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Atomized Crystals",
+            "description": "Gain +1% extra Gemstone Powder."
+        }
     },
     "Quartzfang":{
         "productID": "SHARD_QUARTZFANG",
@@ -1890,7 +2230,11 @@
                 "family":"",
                 "shards":["Cave Dweller", "Abyssal Lanternfish"]
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Quart Speed",
+            "description": "Mining Speed from events is increased by +10%."
+        }
     },
     "Hideonring":{
         "productID": "SHARD_HIDEONRING",
@@ -1912,7 +2256,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Accessory Size",
+            "description": "Grants +1 extra Accessory Bag slots."
+        }
     },
     "Snowfin":{
         "productID": "SHARD_SNOWFIN",
@@ -1934,7 +2282,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Winter's Serendipity",
+            "description": "Increases the odds of finding rare items in Winter Gifts by +2%."
+        }
     },
     "Kada Knight":{
         "productID": "SHARD_KADA_KNIGHT",
@@ -1956,7 +2308,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Lifeline",
+            "description": "When under 20% maximum HP, your Damage and Defense increase by +2.5%"
+        }
     },
     "Carrot King":{
         "productID": "SHARD_CARROT_KING",
@@ -1978,7 +2334,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Rabbit Crew",
+            "description": "Your Chocolate Factory gains +2 more Chocolate per second."
+        }
     },
     "Wither Specter":{
         "productID": "SHARD_WITHER_SPECTER",
@@ -2000,7 +2360,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Breeze",
+            "description": "When you haven't been damaged in the last 5s or more, your mana costs are decreased by +1%."
+        }
     },
     "Matcho":{
         "productID": "SHARD_MATCHO",
@@ -2022,7 +2386,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Ignition",
+            "description": "Increases the duration of fire damage that you inflict on enemies by +30%."
+        }
     },
     "Ladybug":{
         "productID": "SHARD_LADYBUG",
@@ -2044,7 +2412,11 @@
                 "family":"Bug",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Pretty Clothers",
+            "description": "Gain +1% more Copper from Garden Visitors."
+        }
     },
     "Lumisquid":{
         "productID": "SHARD_LUMISQUID",
@@ -2066,7 +2438,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Extreme Pressure",
+            "description": "Grants +5 Pressure Resistance."
+        }
     },
     "Crocodile":{
         "productID": "SHARD_CROCODILE",
@@ -2088,7 +2464,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Pure Reptile",
+            "description": "Grants a +2% chance to double shards from a Reptile Fusion."
+        }
     },
     "Bullfrog":{
         "productID": "SHARD_BULLFROG",
@@ -2110,7 +2490,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Berry Enjoyer",
+            "description": "Berries have a +10% chance to grant you double points in Starlyn Contests."
+        }
     },
     "Dreadwing":{
         "productID": "SHARD_DREADWING",
@@ -2132,7 +2516,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Essence of the Forest",
+            "description": "Gain +1% more Forest Essence."
+        }
     },
     "Joydive":{
         "productID": "SHARD_JOYDIVE",
@@ -2154,7 +2542,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Deep Diving",
+            "description": "Grants +5 Respiration."
+        }
     },
     "Stalagmight":{
         "productID": "SHARD_STALAGMIGHT",
@@ -2176,7 +2568,11 @@
                 "family":"Cave Dweller",
                 "shards":"Silentdepth"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Atomized Glacite",
+            "description": "Gain +1% extra Glacite Powder."
+        }
     },
     "Fungloom":{
         "productID": "SHARD_FUNGLOOM",
@@ -2198,7 +2594,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fungy Luck",
+            "description": "Gain a +10% chance to gain an additional Chisel charge upon starting the Fossil Excavator."
+        }
     },
     "Eel":{
         "productID": "SHARD_EEL",
@@ -2220,7 +2620,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Eelastic",
+            "description": "Increase Pull by +1 when using your Fishing Nets."
+        }
     },
     "King Cobra":{
         "productID": "SHARD_KING_COBRA",
@@ -2242,7 +2646,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Hunter's Grasp",
+            "description": "Your Black Holes gain +1% Hunter Fortune"
+        }
     },
     "Lava Flame":{
         "productID": "SHARD_LAVA_FLAME",
@@ -2264,7 +2672,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Blazing Fortune",
+            "description": "Grants +1 Magic Find on Lava Sea Creatures."
+        }
     },
     "Draconic":{
         "productID": "SHARD_DRACONIC",
@@ -2286,7 +2698,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Essence of Dragons",
+            "description": "Gain +1% more Dragon Essence."
+        }
     },
     "Falcon":{
         "productID": "SHARD_FALCON",
@@ -2308,7 +2724,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Battle Experience",
+            "description": "Pets gain +1% more EXP from Combat."
+        }
     },
     "Inferno Koi":{
         "productID": "SHARD_INFERNO_KOI",
@@ -2330,7 +2750,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Crimson Serendipity",
+            "description": "Increase the odds of finding a Vanquisher by +2%."
+        }
     },
     "Wither":{
         "productID": "SHARD_WITHER",
@@ -2352,7 +2776,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Essence of Wither",
+            "description": "Gain +1% more Wither Essence."
+        }
     },
     "Gecko":{
         "productID": "SHARD_GECKO",
@@ -2374,7 +2802,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Sharpening",
+            "description": "Your Sharpening Attributes are +2% stronger."
+        }
     },
     "Terra":{
         "productID": "SHARD_TERRA",
@@ -2396,7 +2828,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Earth Elemental",
+            "description": "Grants +2 Health."
+        }
     },
     "Cryo":{
         "productID": "SHARD_CRYO",
@@ -2418,7 +2854,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Frosts Elemental",
+            "description": "Grants +1 Intelligence."
+        }
     },
     "Aero":{
         "productID": "SHARD_AERO",
@@ -2440,7 +2880,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Wind Elemental",
+            "description": "Grants +1 Strength."
+        }
     },
     "Pandarai":{
         "productID": "SHARD_PANDARAI",
@@ -2462,7 +2906,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Foraging Wisdom",
+            "description": "Grants +0.5 Foraging Wisdom."
+        }
     },
     "Leviathan":{
         "productID": "SHARD_LEVIATHAN",
@@ -2484,7 +2932,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Excellent Karma",
+            "description": "Grants +1 Hunter Fortune towards EPIC Attributes."
+        }
     },
     "Alligator":{
         "productID": "SHARD_ALLIGATOR",
@@ -2506,7 +2958,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Resistance",
+            "description": "Your Resistance Attributes are +2% stronger."
+        }
     },
     "Fenlord":{
         "productID": "SHARD_FENLORD",
@@ -2528,7 +2984,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Berry Mogul",
+            "description": "Your Salts last +1% longer."
+        }
     },
     "Basilisk":{
         "productID": "SHARD_BASILISK",
@@ -2550,7 +3010,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Hunter's Suppress",
+            "description": "Lassos deplete Stamina +2% faster."
+        }
     },
     "Iguana":{
         "productID": "SHARD_IGUANA",
@@ -2572,7 +3036,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Atomized",
+            "description": "Your Atomized Attributes are +2% stronger."
+        }
     },
     "Moray Eel":{
         "productID": "SHARD_MORAY_EEL",
@@ -2594,7 +3062,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Lucky Rod",
+            "description": "Fish Treasure Shards are +1% easier to find."
+        }
     },
     "Thorn":{
         "productID": "SHARD_THORN",
@@ -2616,7 +3088,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Dominance",
+            "description": "Gain +1.5% more Damage when at full health."
+        }
     },
     "Lunar Moth":{
         "productID": "SHARD_LUNAR_MOTH",
@@ -2638,7 +3114,11 @@
                 "family":"Bug",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Lunar Power",
+            "description": "Grants +5 Farming Fortune during the Night."
+        }
     },
     "Fire Eel":{
         "productID": "SHARD_FIRE_EEL",
@@ -2672,7 +3152,11 @@
                 "family":"",
                 "shards":"Moray Eel"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Trophy Hunter",
+            "description": "Grants +2 Trophy Fish Chance."
+        }
     },
     "Bal":{
         "productID": "SHARD_BAL",
@@ -2694,7 +3178,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Deep Technique",
+            "description": "Each block you mine has a +1% chance to grant 1 extra Pristine for that block."
+        }
     },
     "Hideonsack":{
         "productID": "SHARD_HIDEONSACK",
@@ -2716,7 +3204,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Sack Size",
+            "description": "Your sacks can hold +1% more items."
+        }
     },
     "Water Hydra":{
         "productID": "SHARD_WATER_HYDRA",
@@ -2738,7 +3230,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Fishing Speed",
+            "description": "Grants +3 Fishing Speed."
+        }
     },
     "Flare":{
         "productID": "SHARD_FLARE",
@@ -2760,7 +3256,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Blazing",
+            "description": "Grants +3% more Damage against mobs while in the Crimson Isle."
+        }
     },
     "Sea Emperor":{
         "productID": "SHARD_SEA_EMPEROR",
@@ -2782,7 +3282,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Sea Wisdom",
+            "description": "Grants a +0.5 Fishing Wisdom."
+        }
     },
     "Prince":{
         "productID": "SHARD_PRINCE",
@@ -2804,7 +3308,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Reborn",
+            "description": "Killing a Prince has a +10% chance to add 1 Bonus Score to your Dungeon Run."
+        }
     },
     "Komodo Dragon":{
         "productID": "SHARD_KOMODO_DRAGON",
@@ -2826,7 +3334,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Essence",
+            "description": "Your Essence Attributes are +2% stronger."
+        }
     },
     "Mimic":{
         "productID": "SHARD_MIMIC",
@@ -2848,7 +3360,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Faker",
+            "description": "Dungeon Blessings are +1% stronger on you."
+        }
     },
     "Shellwise":{
         "productID": "SHARD_SHELLWISE",
@@ -2870,7 +3386,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Shell",
+            "description": "Gain +10% Regular Knockback Resistance."
+        }
     },
     "Barbarian Duke X":{
         "productID": "SHARD_BARBARIAN_DUKE_X",
@@ -2892,7 +3412,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Warrior",
+            "description": "Increases melee damage dealt by +2.5%."
+        }
     },
     "Toucan":{
         "productID": "SHARD_TOUCAN",
@@ -2914,7 +3438,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Why Not More",
+            "description": "Your pet's EXP Share grants +1% more EXP."
+        }
     },
     "Hellwisp":{
         "productID": "SHARD_HELLWISP",
@@ -2936,7 +3464,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Matriarch Cubs",
+            "description": "Grants a +2% chance to get a second Heavy Pearl."
+        }
     },
     "Caiman":{
         "productID": "SHARD_CAIMAN",
@@ -2958,7 +3490,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Ruler",
+            "description": "Your Ruler Attributes are +2% stronger."
+        }
     },
     "Firefly":{
         "productID": "SHARD_FIREFLY",
@@ -2980,7 +3516,11 @@
                 "family":"",
                 "shards":["Bezal", "Cinderbat", "Flare", "Lava Flame", "Fire Eel", "Bal", "Flaming Spider"]
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Solar Power",
+            "description": "Grants +5 Farming Fortune during the day."
+        }
     },
     "Sea Serpant":{
         "productID": "SHARD_SEA_SERPENT",
@@ -3002,7 +3542,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Hunter",
+            "description": "Your Hunter Attributes are +2% stronger."
+        }
     },
     "Ghost":{
         "productID": "SHARD_GHOST",
@@ -3024,7 +3568,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Veil",
+            "description": "Grants +1 True Defense."
+        }
     },
     "XYZ":{
         "productID": "SHARD_XYZ",
@@ -3046,7 +3594,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Mana Regeneration",
+            "description": "Inceases your Mana regenneration by +1%."
+        }
     },
     "Leatherback":{
         "productID": "SHARD_LEATHERBACK",
@@ -3068,7 +3620,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Hunt Wisdom",
+            "description": "Grants +0.5 Hunting Wisdom."
+        }
     },
     "Cavernshade":{
         "productID": "SHARD_CAVERNSHADE",
@@ -3090,7 +3646,11 @@
                 "family":"Cave Dweller",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Cavern Wisdom",
+            "description": "Grants +0.5% Mining Wisdom."
+        }
     },
     "Dragonfly":{
         "productID": "SHARD_DRAGONFLY",
@@ -3112,7 +3672,11 @@
                 "family":"Dragon",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Garden Wisom",
+            "description": "Grants +0.5 Farming Wisdom."
+        }
     },
     "Tenebris":{
         "productID": "SHARD_TENEBRIS",
@@ -3134,7 +3698,11 @@
                 "family":"Elemental",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Shadow Elemental",
+            "description": "Grants +2 Health."
+        }
     },
     "Blizzard":{
         "productID": "SHARD_BLIZZARD",
@@ -3156,7 +3724,11 @@
                 "family":"Elemental",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Snow Elemental",
+            "description": "Grants +1 Intelligence."
+        }
     },
     "Tempest":{
         "productID": "SHARD_TEMPEST",
@@ -3178,7 +3750,11 @@
                 "family":"Elemental",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Storm Elemental",
+            "description": "Grants +1 Strength."
+        }
     },
     "Chameleon":{
         "productID": "SHARD_CHAMELEON",
@@ -3200,7 +3776,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Reptiloid",
+            "description": "Fusions with Chameleons grant the next 3 IDs as results."
+        }
     },
     "Tiamat":{
         "productID": "SHARD_TIAMAT",
@@ -3222,7 +3802,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Echoes",
+            "description": "Your Echo Attributes are +5% stronger."
+        }
     },
     "Wyvern":{
         "productID": "SHARD_WYVERN",
@@ -3244,7 +3828,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Wisdom",
+            "description": "Your Wisdom Attributes are +2% stronger."
+        }
     },
     "Tortoise":{
         "productID": "SHARD_TORTOISE",
@@ -3266,7 +3854,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Cloak Improvment",
+            "description": "Your David's Cloak gains +1 True Defense."
+        }
     },
     "Endstone Protector":{
         "productID": "SHARD_ENDSTONE_PROTECTOR",
@@ -3288,7 +3880,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Paramount Fortitude",
+            "description": "Your Defense is increased by +0.2%."
+        }
     },
     "Naga":{
         "productID": "SHARD_NAGA",
@@ -3310,7 +3906,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Charmed",
+            "description": "Grants a +0.05% chance to charm the Shard of monsters you kill."
+        }
     },
     "Lapis Creeper":{
         "productID": "SHARD_LAPIS_CREEPER",
@@ -3332,7 +3932,11 @@
                 "family":"",
                 "shards":"Ghost"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Book Wisdom",
+            "description": "Grants +0.5 Enchanting Wisdom."
+        }
     },
     "Wartybug":{
         "productID": "SHARD_WARTYBUG",
@@ -3354,7 +3958,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Wart Eater",
+            "description": "Grants a +0.01% chance to obtain a Warty when breaking Nether Warts."
+        }
     },
     "Spike":{
         "productID": "SHARD_SPIKE",
@@ -3376,7 +3984,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Payback",
+            "description": "When hit, your next hit deals +2% damage."
+        }
     },
     "Kraken":{
         "productID": "SHARD_KRAKEN",
@@ -3398,7 +4010,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Vitality",
+            "description": "Grants +2 Vitality."
+        }
     },
     "Taurus":{
         "productID": "SHARD_TAURUS",
@@ -3420,7 +4036,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Maximal Torment",
+            "description": "Your Intelligence is increased by 0.1%."
+        }
     },
     "Daemon":{
         "productID": "SHARD_DAEMON",
@@ -3442,7 +4062,11 @@
                 "family":"",
                 "shards":"Kraken"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Pity",
+            "description": "Your RNG Meter fills +1% faster."
+        }
     },
     "Moltenfish":{
         "productID": "SHARD_MOLTENFISH",
@@ -3464,7 +4088,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Star Bait",
+            "description": "Grants a +0.1% chance to fish a Shinyfish."
+        }
     },
     "Shinyfish":{
         "productID": "SHARD_SHINYFISH",
@@ -3486,7 +4114,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Help From Above",
+            "description": "Grants +1.25 Health Regen."
+        }
     },
     "Ananke":{
         "productID": "SHARD_ANANKE",
@@ -3508,7 +4140,11 @@
                 "family":"Bird",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Wings of Destiny",
+            "description": "Increases the odds of finding Ananke Feathers by +2%."
+        }
     },
     "Hideonbox":{
         "productID": "SHARD_HIDEONBOX",
@@ -3530,7 +4166,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Tuning Box",
+            "description": "Grants +1 Tuning Points."
+        }
     },
     "Lord Jawbus":{
         "productID": "SHARD_LORD_JAWBUS",
@@ -3552,7 +4192,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Crimson Hook",
+            "description": "Grants +0.5 Double Hook Chance while on the Crimson Isle."
+        }
     },
     "Burningsoul":{
         "productID": "SHARD_BURNINGSOUL",
@@ -3574,7 +4218,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Attack Speed",
+            "description": "Grants +1 Bonus Attack Speed."
+        }
     },
     "Cinderbat":{
         "productID": "SHARD_CINDER_BAT",
@@ -3596,7 +4244,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Magic Find",
+            "description": "Grants 0.5 Magic Find."
+        }
     },
     "Megalith":{
         "productID": "SHARD_MEGALITH",
@@ -3618,7 +4270,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Hunter's Karma",
+            "description": "Grants +1 Hunter Fortune."
+        }
     },
     "Power Dragon":{
         "productID": "SHARD_POWER_DRAGON",
@@ -3640,7 +4296,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Elite",
+            "description": "Grants +3% more Damage against bosses and mini-bosses."
+        }
     },
     "Condor":{
         "productID": "SHARD_CONDOR",
@@ -3662,7 +4322,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Pet Wisdom",
+            "description": "Grants +0.5 Taming Wisdom."
+        }
     },
     "Sun Fish":{
         "productID": "SHARD_SUN_FISH",
@@ -3684,7 +4348,11 @@
                 "family":"",
                 "shards":"Shinyfish"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Starborn",
+            "description": "The effect of Starborn Templess is +1% stronger on you."
+        }
     },
     "Apex Dragon":{
         "productID": "SHARD_APEX_DRAGON",
@@ -3706,7 +4374,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Veteran",
+            "description": "Grants +1 Combat Wisdom."
+        }
     },
     "Dodo":{
         "productID": "SHARD_DODO",
@@ -3728,7 +4400,11 @@
                 "family":"",
                 "shards":""
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Rare Bird",
+            "description": "Grants +1 Pet Luck."
+        }
     },
     "Jormung":{
         "productID": "SHARD_JORMUNG",
@@ -3750,7 +4426,11 @@
                 "family":"",
                 "shards":"Kraken"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Unlimited Power",
+            "description": "Your Strngth is increased by +0.1%"
+        }
     },
     "Etherdrake":{
         "productID": "SHARD_ETHERDRAKE",
@@ -3772,7 +4452,11 @@
                 "family":"",
                 "shards":"Kraken"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Unlimted Energy",
+            "description": "Your Crit Damage is increased by +0.1%."
+        }
     },
     "Galaxy Fish":{
         "productID": "SHARD_GALAXY_FISH",
@@ -3794,7 +4478,11 @@
                 "family":"",
                 "shards":"Sun Fish"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Ultimate DNA",
+            "description": "Grants +1 Mining Fortune, Farming Fortune, and Foraging Fortune."
+        }
     },
     "Molthorn":{
         "productID": "SHARD_MOLTHORN",
@@ -3816,7 +4504,11 @@
                 "family":"",
                 "shards":"Jormung"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Molthorn",
+            "description": "Your \"Unlimited\" Attributes are +5% stronger."
+        }
     },
     "Starborn":{
         "productID": "SHARD_STARBORN",
@@ -3838,7 +4530,11 @@
                 "family":"",
                 "shards":"Galaxy Fish"
             }
-        ]
+        ],
+        "attribute": {
+            "name": "Echo of Elementals",
+            "description": "Buffs all other shards in the Elemental Family by +2%."
+        }
     }
   }
 }
