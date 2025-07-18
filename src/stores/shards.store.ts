@@ -9,6 +9,10 @@ export const useShardStore = defineStore('shard', {
 			shard: shards.shards as Record<string, shard>,
             fusionTarget: undefined as shard | undefined,
             fusionResults: [] as shard[][],
+            searchText: "",
+            searchRarity: "all",
+            searchFamily: "all",
+            searchType: "all"
 		}
 	},
 	actions: {
@@ -20,12 +24,40 @@ export const useShardStore = defineStore('shard', {
             }
 
             return this.fusionResults = [];
+        },
+        setSearchText(text: string) {
+            this.searchText = text;
+        },
+        setSearchRarity(rarity: string) {
+            this.searchRarity = rarity;
+        },
+        setSearchFamily(family: string) {
+            this.searchFamily = family;
+        },
+        setSearchType(type: string) {
+            this.searchType = type;
         }
 	},
 	getters: {
 		getShardArray(): shard[] {
 			return Object.values(shards.shards);
 		},
+        getFilteredArray(): shard[] {
+            return Object.values(shards.shards).filter(shard => {
+                let matches = false;
+                
+                if(this.searchText && (
+                    shard.name.toLowerCase().includes(this.searchText.toLowerCase()) ||
+                    shard.productID.toLowerCase().includes(this.searchText.toLowerCase()) ||
+                    shard.attribute.name.toLowerCase().includes(this.searchText.toLowerCase()) ||
+                    shard.attribute.description.toLowerCase().includes(this.searchText.toLowerCase())
+                )) matches = true;
+
+
+                if(!this.searchText && this.searchRarity === "all" && this.searchFamily === "all" && this.searchType === "all") matches = true;
+                return matches;
+            });
+        },
 		getShardById: (state) => {
 			return (id: string) => {
 				return Object.values(state.shard).find(shard => shard.productID === id);

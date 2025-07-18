@@ -77,6 +77,10 @@ function onPictureError(event: Event) {
 
 <style lang="scss" scoped>
 .outer-shard {
+
+	height: 72px;
+	width: 72px;
+
 	.shard-description {
 		position: absolute;
 		left: 100%;

@@ -2,8 +2,8 @@
 	<div class="main-container">
 		<div class="shard-area">
 			<div class="filter">
-				<input placeholder="Shard name">
-				<select>
+				<input v-model="searchText" @change="shardStore.setSearchText(searchText)" @keyup="shardStore.setSearchText(searchText)" placeholder="Shard name">
+				<select v-model="searchRarity" @change="shardStore.setSearchRarity(searchRarity)">
 					<option value="all">All Rarities</option>
 					<option value="common">Common</option>
 					<option value="uncommon">Uncommon</option>
@@ -11,17 +11,17 @@
 					<option value="epic">Epic</option>
 					<option value="legendary">Legendary</option>
 				</select>
-				<select>
+				<select v-model="searchFamily" @change="shardStore.setSearchFamily(searchFamily)">
 					<option value="all">All Families</option>
 				</select>
-				<select>
+				<select v-model="searchType" @change="shardStore.setSearchType(searchType)">
 					<option value="all">All Types</option>
 				</select>
 				<input type="checkbox" id="showFusions">
 				<label for="showFusions">Show base shards</label>
 			</div>
 			<div class="shard-list">
-				<Shard v-for="shard in shardStore.getShardArray" :key="shard.productID" :id="shard.productID" />
+				<Shard v-for="shard in shardStore.getFilteredArray" :key="shard.productID" :id="shard.productID" />
 			</div>
 		</div>
 		<div class="fusion-area">
@@ -40,6 +40,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
 import arrowRight from './assets/images/arrow-right-solid.svg';
 
 import Dropzone from './components/Dropzone.vue';
@@ -49,6 +50,11 @@ import { useShardStore } from './stores/shards.store';
 
 const shardStore = useShardStore();
 
+const searchText = ref('');
+const searchRarity = ref('all');
+const searchFamily = ref('all');
+const searchType = ref('all');
+const showFusions = ref(false);
 </script>
 
 <style lang="scss" scoped>
@@ -93,8 +99,8 @@ const shardStore = useShardStore();
 		overflow-y: auto;
 		overflow-x: visible;
 		position: relative;
-		height: 100%;
 		max-height: 90vh;
+		padding-bottom: 1rem;
 	}
 }
 
