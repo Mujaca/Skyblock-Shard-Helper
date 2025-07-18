@@ -53,6 +53,9 @@ export const useShardStore = defineStore('shard', {
                     shard.attribute.description.toLowerCase().includes(this.searchText.toLowerCase())
                 )) matches = true;
 
+                if(this.searchRarity !== "all" && shard.rarity === this.searchRarity) matches = true;
+                if(this.searchFamily !== "all" && shard.family.includes(this.searchFamily)) matches = true;
+                if(this.searchType !== "all" && shard.type === this.searchType) matches = true;
 
                 if(!this.searchText && this.searchRarity === "all" && this.searchFamily === "all" && this.searchType === "all") matches = true;
                 return matches;

@@ -2,20 +2,23 @@
 	<div class="main-container">
 		<div class="shard-area">
 			<div class="filter">
-				<input v-model="searchText" @change="shardStore.setSearchText(searchText)" @keyup="shardStore.setSearchText(searchText)" placeholder="Shard name">
+				<input v-model="searchText" @change="shardStore.setSearchText(searchText)" @keyup="shardStore.setSearchText(searchText)" placeholder="Search Text">
 				<select v-model="searchRarity" @change="shardStore.setSearchRarity(searchRarity)">
 					<option value="all">All Rarities</option>
-					<option value="common">Common</option>
-					<option value="uncommon">Uncommon</option>
-					<option value="rare">Rare</option>
-					<option value="epic">Epic</option>
-					<option value="legendary">Legendary</option>
+					<option value="Common">Common</option>
+					<option value="Uncommon">Uncommon</option>
+					<option value="Rare">Rare</option>
+					<option value="Epic">Epic</option>
+					<option value="Legendary">Legendary</option>
 				</select>
 				<select v-model="searchFamily" @change="shardStore.setSearchFamily(searchFamily)">
 					<option value="all">All Families</option>
 				</select>
 				<select v-model="searchType" @change="shardStore.setSearchType(searchType)">
 					<option value="all">All Types</option>
+					<option value="Combat">Combat</option>
+					<option value="Forest">Forest</option>
+					<option value="Water">Water</option>
 				</select>
 				<input type="checkbox" id="showFusions">
 				<label for="showFusions">Show base shards</label>
