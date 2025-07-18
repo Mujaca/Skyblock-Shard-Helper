@@ -126,7 +126,7 @@
             }
         ],
         "attribute": {
-            "name": "Ceahpstake",
+            "name": "Cheapstake",
             "description": "Gain +1% more Coins from fishing treasures."
         }
     },
@@ -855,7 +855,7 @@
         ],
         "attribute": {
             "name": "Fig Collector",
-            "description": "Grants ü1 Fig Fortune for every digit in your Fig Log collection. (Max 10M collection)"
+            "description": "Grants +1 Fig Fortune for every digit in your Fig Log collection. (Max 10M collection)"
         }
     },
     "Goldfin":{
@@ -1323,7 +1323,7 @@
         ],
         "attribute": {
             "name": "Mangrove Collector",
-            "description": "Grants ü1 Mangrove Fortune for every digit in your Mangrove Log collection. (Max 10M collection)"
+            "description": "Grants +1 Mangrove Fortune for every digit in your Mangrove Log collection. (Max 10M collection)"
         }
     },
     "Ent":{
