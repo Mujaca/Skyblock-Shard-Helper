@@ -57,7 +57,7 @@ const searchText = ref('');
 const searchRarity = ref('all');
 const searchFamily = ref('all');
 const searchType = ref('all');
-const showFusions = ref(false);
+//const showFusions = ref(false);
 </script>
 
 <style lang="scss" scoped>
