@@ -32,7 +32,7 @@
 				<Dropzone />
 			</div>
 			<p class="direction-indicator">
-				<img :src="arrowRight">
+				<img class="fusion-input" :src="arrowRight">
 			</p>
 			<div class="output-area">
 				<OutputShard v-if="shardStore.fusionResults.length > 0" v-for="result in shardStore.fusionResults"
@@ -140,10 +140,18 @@ const searchType = ref('all');
 	}
 
 	img {
-		transform: rotate(180deg);
 		filter: invert(1);
 		max-width: 100%;
 		max-height: 100%;
+		transition: transform 0.3s ease;
+
+		&.fusion-input {
+			transform: rotate(180deg);
+		}
+
+		&.fusion-output {
+			transform: rotate(0deg);
+		}
 	}
 }
 </style>
